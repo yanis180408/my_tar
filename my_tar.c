@@ -43,6 +43,7 @@ int main(int argc, char **argv){
             if (argv[i][j] == 'r'){
                 if (argv[i][j + 1] == 'f'){
                     printf("-rf\n");
+                    j++;
                 }
                 else{
                     printf("-r\n");
@@ -61,6 +62,7 @@ int main(int argc, char **argv){
             else if (argv[i][j] == 'u'){
                 if (argv[i][j + 1] == 'f'){
                     printf("-uf\n");
+                    j++;
                 }
                 
                 else{
